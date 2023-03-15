@@ -11,7 +11,7 @@ interface ContextValue {
   res: NextApiResponse<any>
 }
 
-export default {
+const resolvers = {
   Query: {
     greetings: () => 'This is a greeting',
 
@@ -93,3 +93,5 @@ export default {
     }
   }
 }
+
+export default resolvers;

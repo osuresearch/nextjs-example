@@ -50,7 +50,7 @@ export default function GraphQLDemo() {
         <Heading level={1}>GraphQL</Heading>
         <Text>
           Like using GraphQL for your apps? So do we.
-          Here's some examples of our app working with GraphQL services,
+          Here&apos;s some examples of our app working with GraphQL services,
           both through Next.js and directly from
           the <ExternalLink href="https://api.eip.osu.edu/store/apis/info?name=Research">Research API</ExternalLink>.
         </Text>

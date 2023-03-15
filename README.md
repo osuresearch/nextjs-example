@@ -154,6 +154,7 @@ Some references:
 - https://www.perfecto.io/blog/playwright-vs-cypress
 - https://nextjs.org/docs/testing
 
+Amplify works with Cypress, so that'll probably be the route to go for e2e: https://docs.aws.amazon.com/amplify/latest/userguide/running-tests.html
 
 ## Logging
 

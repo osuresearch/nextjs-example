@@ -2,7 +2,7 @@
 /**
  * Links in the main navbar shared between all the pages
  */
-export default [
+const nav = [
   { title: 'New AppShell', href: '/demos/appshell' },
   { title: 'Doc Site', href: '/demos/docs' },
   { title: 'Marketing', href: '/demos/marketing' },
@@ -10,3 +10,5 @@ export default [
   { title: 'GraphQL', href: '/demos/graphql' },
   { title: 'AWS', href: '/demos/aws' },
 ];
+
+export default nav;

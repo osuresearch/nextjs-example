@@ -1,5 +1,5 @@
 
-export default /* GraphQL */`
+const typedefs = /* GraphQL */`
   scalar File
 
   type Query {
@@ -30,3 +30,6 @@ export default /* GraphQL */`
     upload(file: File!): String!
   }
 `;
+
+export default typedefs;
+

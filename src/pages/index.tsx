@@ -61,7 +61,7 @@ export default function Home() {
             bgc="light"
           >
             Going serverless? Us too! Check out some of the
-            architecture patterns we're using.
+            architecture patterns we&apos;re using.
           </Card>
         </Group>
       </Stack>
