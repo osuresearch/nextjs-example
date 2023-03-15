@@ -179,6 +179,11 @@ Probably using Amplify.
 Note that it doesn't support Next 13's app directory:
 https://docs.aws.amazon.com/amplify/latest/userguide/ssr-Amplify-support.html
 
+Issues I've ran into so far:
+- forgot to run the linter beforehand. Thus failed.
+- I guess I can't put non-page-components into the `pages` directory (had nav in there) but it only complained during the build, not in dev.
+
+Having a stricter dev mode would be nice, getting devs to do a build before deployment themselves or them having to look into AWS logs is cumbersome. Esp. if we lock them out of AWS.
 
 ## Handling responsive breakpoints serverside
 
@@ -209,6 +214,3 @@ It's just GraphiQL, nothing super fancy.
 https://nextjs.org/docs/routing/dynamic-routes
 
 Instead of React-Router (client side only) you can do some serverside routing for pre-rendering content.
-
-
-

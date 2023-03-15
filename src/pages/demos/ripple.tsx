@@ -2,7 +2,7 @@ import Head from 'next/head'
 import useSWR from 'swr'
 import { Box, Group, Heading, Stack, Text } from '@osuresearch/ui'
 import { OhioStateAppShell } from '@/components/OhioStateAppShell'
-import links from '../nav';
+import links from '../../nav';
 
 export default function RippleDemo() {
   return (

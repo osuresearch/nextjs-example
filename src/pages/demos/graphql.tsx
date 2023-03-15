@@ -2,7 +2,7 @@ import Head from 'next/head'
 import useSWR from 'swr'
 import { Box, ExternalLink, Group, Heading, Stack, Text } from '@osuresearch/ui'
 import { OhioStateAppShell } from '@/components/OhioStateAppShell'
-import links from '../nav';
+import links from '../../nav';
 
 const fetcher = (query: string) =>
   fetch('/api/graphql', {
