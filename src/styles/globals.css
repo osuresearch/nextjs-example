@@ -1,0 +1,11 @@
+
+/* Only because RUI doesn't set global body styles yet. */
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: var(--rui-light-tint);
+}

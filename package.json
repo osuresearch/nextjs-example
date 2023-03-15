@@ -1,22 +1,37 @@
 {
-  "name": "labeler",
+  "name": "nextjs-example",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate": "graphql-codegen"
   },
   "dependencies": {
+    "@apollo/client": "^3.7.10",
+    "@osuresearch/ui": "5.0.0-alpha.13",
     "@types/node": "18.15.3",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
+    "@types/styled-components": "^5.1.26",
+    "axios": "^1.3.4",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
+    "graphql": "^16.6.0",
+    "graphql-yoga": "^3.7.2",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "styled-components": "^5.3.9",
+    "swr": "^2.1.0",
     "typescript": "4.9.5"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^3.2.2",
+    "@graphql-codegen/typescript": "^3.0.2",
+    "@graphql-codegen/typescript-resolvers": "^3.1.1",
+    "react-hook-form": "^7.43.5"
   }
 }
